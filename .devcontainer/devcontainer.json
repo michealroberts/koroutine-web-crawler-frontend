@@ -1,0 +1,21 @@
+{
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": "..",
+    "target": "development"
+  },
+  "customizations": {
+    "recommendations": [],
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "zsh",
+      "terminal.integrated.profiles.linux": {
+        "zsh": {
+          "path": "zsh"
+        }
+      }
+    }
+  },
+  "forwardPorts": [],
+  "postStartCommand": "/bin/zsh",
+  "runArgs": ["--env-file", "${localWorkspaceFolder}/.devcontainer/.env.config"]
+}
