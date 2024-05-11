@@ -1,0 +1,8 @@
+.turbo
+coverage
+dist
+node_modules
+public
+shims-vue.d.ts
+*-env.d.ts
+vite.config.ts
