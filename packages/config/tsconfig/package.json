@@ -1,0 +1,11 @@
+{
+  "name": "@koroutine/tsconfig",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "files": [
+    "tsconfig.eslint.json",
+    "tsconfig.node18.json",
+    "tsconfig.vite.json"
+  ]
+}
