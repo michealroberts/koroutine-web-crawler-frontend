@@ -1,8 +1,0 @@
-{
-  "name": "koroutine-web-crawler",
-  "version": "0.0.0",
-  "workspaces": [
-    "packages/*/**",
-    "apps/*"
-  ]
-}
