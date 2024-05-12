@@ -10,6 +10,13 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@unocss/nuxt"],
+  runtimeConfig: {
+    public: {
+      crawler: {
+        apiBaseUrl: "http://0.0.0.0:8080",
+      },
+    },
+  },
 });
 
 /*****************************************************************************************************************/
